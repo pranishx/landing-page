@@ -32,6 +32,7 @@ a {
     background-color: #1F2937;
     height: 500px;
     color: #E5E7EB;
+    flex-shrink: 0;
     /* align-self: ; */
     /* display: flex; */
     /* flex-direction: column; */
@@ -99,3 +100,42 @@ a {
 }
 
 /* Main of the page ends */
+
+/* Page middle part begin */
+.middle-part {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    justify-content: space-between;
+    height: 500px;
+    padding: 40px;
+}
+
+.outside-box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    /* border: 2px solid black; */
+    width: 150px;
+}
+
+
+.box {
+    border: 3px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+}
+
+/* Page middle part ends */
