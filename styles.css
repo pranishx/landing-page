@@ -139,3 +139,41 @@ a {
 }
 
 /* Page middle part ends */
+
+/* Quote area starts */
+
+.quote-area {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    align-items: center;
+    justify-content: center;
+}
+
+
+.quote {
+    width: 800px;
+    /* border: 2px solid red; */
+    /* padding: 20px; */
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-content {
+    margin: 100px auto;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-author {
+    /* border: 2px solid blue; */
+    font-weight: 900;
+    align-self: flex-end;
+    font-size: 18px;
+}
+
+/* Quote area ends */
