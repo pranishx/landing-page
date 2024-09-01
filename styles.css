@@ -218,3 +218,18 @@ a {
 }
 
 /* Call to action area ends */
+
+/* Footer section begins */
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    padding: 20px;
+}
+
+/* Footer section ends */
