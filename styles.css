@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
-    font-family: Roboto;
+    font-family: "Roboto",
+        sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -66,7 +69,7 @@ a {
 .hero-main .main-text {
     font-weight: 900;
     font-size: 48px;
-    margin: 0;
+    /* margin: 0; */
     /* text-align: center; */
 }
 
@@ -75,7 +78,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 330px;
+    width: 400px;
     padding: 10px;
 }
 
@@ -85,7 +88,7 @@ a {
     justify-content: center;
     align-items: center;
     width: 500px;
-    flex-shrink: 1;
+    /* flex-shrink: 1; */
 }
 
 .signup-btn {
@@ -171,9 +174,47 @@ a {
 
 .quote-author {
     /* border: 2px solid blue; */
-    font-weight: 900;
+    font-weight: 800;
     align-self: flex-end;
     font-size: 18px;
 }
 
 /* Quote area ends */
+
+/* Call to action area begins */
+.call-to-action-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 300px; */
+}
+
+.call-to-action-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    width: 800px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    height: 120px;
+    margin: 100px;
+}
+
+.call-to-action-para h4 {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.call-to-action-para p {
+    color: #E5E7EB;
+    font-size: small;
+}
+
+.button .signup-btn {
+    border: 2px solid white;
+    font-weight: bolder;
+    padding: 10px auto;
+}
+
+/* Call to action area ends */
